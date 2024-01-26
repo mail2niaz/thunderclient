@@ -1,0 +1,170 @@
+[
+    {
+        "_id": "17472bc5-5ae3-4344-94c5-8b9133386889",
+        "colId": "4b110e61-e1ce-47b0-8f52-df76f3c70501",
+        "created": "2024-01-26T13:57:16.120Z",
+        "modified": "2024-01-26T13:57:16.120Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "json",
+            "headers": [
+                {
+                    "name": "connection",
+                    "value": "close"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/plain; charset=utf-8"
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 26 Jan 2024 13:57:17 GMT"
+                },
+                {
+                    "name": "content-encoding",
+                    "value": "gzip"
+                },
+                {
+                    "name": "transfer-encoding",
+                    "value": "chunked"
+                },
+                {
+                    "name": "vary",
+                    "value": "Accept-Encoding"
+                },
+                {
+                    "name": "request-context",
+                    "value": "appId="
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQEncryption?code=Qp2x6fEKXes7lqkaGR5TCHr_NtN_pT-JB2ONNA23F1ypAzFuvg_-DQ==",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/plain; charset=utf-8",
+            "contentLength": "1.16 KB",
+            "responseTimeText": "21.46 s",
+            "responseTime": 21457,
+            "responseSize": 1192,
+            "preReqTime": 6.339399993419647,
+            "preScriptTime": 0.19780001044273376,
+            "postScriptTime": 0.46140000224113464,
+            "chartHTML": ""
+        },
+        "requestInfo": {
+            "reqUrl": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQEncryption?code=Qp2x6fEKXes7lqkaGR5TCHr_NtN_pT-JB2ONNA23F1ypAzFuvg_-DQ==",
+            "headers": [
+                {
+                    "name": "content-length",
+                    "value": "687"
+                },
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                }
+            ],
+            "body": "{\n  \"V_requestData\": \"{     \\\"FetchDigiCustLead\\\": {         \\\"msgHdr\\\": {             \\\"channelID\\\": \\\"12\\\",             \\\"transactionType\\\": \\\"detail\\\",             \\\"transactionSubType\\\": \\\"detail\\\",             \\\"conversationID\\\": \\\"FetchCuLead2653302315\\\",             \\\"externalReferenceId\\\": \\\"FetchCuLead2653302315123\\\",             \\\"isAsync\\\": true,             \\\"authInfo\\\": {                 \\\"branchID\\\": \\\"\\\",                 \\\"userID\\\": \\\"\\\",                 \\\"token\\\": \\\"Ed9VS9Rx88\\\"             }         },         \\\"msgBdy\\\": {             \\\"AccountapplicantID\\\": \\\"00004868\\\"         }     } } \",\n  \"V_AESSymmetricKey\": \"Xp8R7D8xn/5lLchiNleWig==\",\n  \"V_ChecksumKey\": \"BT/Qfw9oT/ITI5dzPyoT6w==\",\n  \"V_bankcode\": \"FI0060\",\n  \"V_requestedID\": \"MAR152023001\"\n}",
+            "type": "formencoded"
+        }
+    },
+    {
+        "_id": "1ace8ce6-ef5c-46b1-8e8a-426db727dc05",
+        "colId": "4b110e61-e1ce-47b0-8f52-df76f3c70501",
+        "created": "2024-01-26T13:57:35.503Z",
+        "modified": "2024-01-26T13:57:35.503Z",
+        "response": {
+            "responseText": "",
+            "filePath": "",
+            "type": "xml",
+            "headers": [
+                {
+                    "name": "connection",
+                    "value": "close"
+                },
+                {
+                    "name": "content-type",
+                    "value": "text/plain; charset=utf-8"
+                },
+                {
+                    "name": "date",
+                    "value": "Fri, 26 Jan 2024 13:57:36 GMT"
+                },
+                {
+                    "name": "content-encoding",
+                    "value": "gzip"
+                },
+                {
+                    "name": "transfer-encoding",
+                    "value": "chunked"
+                },
+                {
+                    "name": "vary",
+                    "value": "Accept-Encoding"
+                },
+                {
+                    "name": "request-context",
+                    "value": "appId=cid-v1:1e6f0cf3-627f-4b24-a541-3bb8b4c0d4b2"
+                }
+            ],
+            "cookies": [],
+            "testResults": [],
+            "url": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQDecryption?code=zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg==",
+            "status": 200,
+            "statusText": "OK",
+            "contentType": "text/plain; charset=utf-8",
+            "contentLength": "777 Bytes",
+            "responseTimeText": "421 ms",
+            "responseTime": 421,
+            "responseSize": 777,
+            "preReqTime": 13.80919998884201,
+            "preScriptTime": 0.03519999980926514,
+            "postScriptTime": 0.02649998664855957,
+            "chartHTML": ""
+        },
+        "requestInfo": {
+            "reqUrl": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQDecryption?code=zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg==",
+            "headers": [
+                {
+                    "name": "x-functions-key",
+                    "value": "zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg=="
+                },
+                {
+                    "name": "content-length",
+                    "value": "1157"
+                },
+                {
+                    "name": "accept-encoding",
+                    "value": "gzip, deflate, br"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded"
+                }
+            ],
+            "body": "{\n  \"V_requestData\": \"HzAFQyODlzEaG7soYia8XdFz7y8CG8o0CVAMJha7brI06iRnrX/qeh/uZOrjjJRdjnGdRRZgJtu1zaI0Z8Np8Apf+ve21FZF3kEpTV6Ypw5PKITuJfKscmSogZjpOcQtOLnZT3XSTaaHLRhcIHUGe84myXqsOJIYWC05/Qdd38xrmA4mbMc0xsTYlmI2VtEMoefP3ZQt9j34c+WtdO8ILSg+ePrwSSNysLEwvRp7qIR3ATXRQwTyoi2WXAA184scG3hsFaUTmM5O/Gu5yHbMe7Xwblm3aBxLRMO4LNBnASATY+GWzE+SS/x6ehMDNk/Mmjk1/t46FsRNk/lb+CtBBjGR1DNI89K+skx1yIL9DtJWvuxtFcHKGcrIBP2c8InPfZy56DjW7J0Y477h5aSBFQ0APtId4x7W102EkXCr3QkXxOX4IlIGTyT+y8886AASNYWwK0RTx9w154/cZOrIMjjy5L2+h33BuBNVT42ejuAiv+DoCSDMUvoohnc7n4HqDbEpAejsDrHfDYCRXTxdPv4PkEfFd51uCj8iNcbtnQVW5hvTpocWzuHYP5f3Zx3DK4MU7GB/Ay6c66kBLYHhaY745BEol3DxQKg8AiR9mxMJv8SelzgOZEOkPihSLwJ1+0kTq/xP9RAr0ertlqQA1jnoGRA8rtQrCk2hj7aBYQ+qfUNSMMTIHQbWi0bW6zBs7BZ629P15BAP53CKrct1RG+TJQptNI/b/r7Tiz2hZBrO4dJ2nrMIT588kbXtWzzflV84b9qpgRXc5J5kUuk5Qru46ZQSsmkRMC/D5cTGGI57u65vvGU+R4ze73UdZj2G25X2F+OxU7mSEwR/+KE5S5BIONAwFlKoXj28pmQS3XKQS1CikiAUU/oZqpRT6uMiLPHtvW7xaJJOIdJjy2ihNoijm8cfBjtF5oIOVubqJ+zjMGsO6je1Sq3yMmZfmVATh9mW4VWaAVlf7upPTjcvqetQ4nBglVDM4X9FLVk0zjrQnqEna6uBaQfXXbsShisOKVStyZ4RKVlCSCJfHuEXgw==\",\n  \"V_AESSymmetricKey\": \"Xp8R7D8xn/5lLchiNleWig==\",\n  \"V_bankcode\": \"FI0060\"\n}",
+            "type": "formencoded"
+        }
+    }
+]

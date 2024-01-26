@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PIDBlock>
+    <payload>{     "FetchDigiCustLead": {         "msgHdr": {             "channelID": "12",             "transactionType": "detail",             "transactionSubType": "detail",             "conversationID": "FetchCuLead2653302315",             "externalReferenceId": "FetchCuLead2653302315123",             "isAsync": true,             "authInfo": {                 "branchID": "",                 "userID": "",                 "token": "Ed9VS9Rx88"             }         },         "msgBdy": {             "AccountapplicantID": "00004868"         }     } } </payload>
+    <checksum>8240289F3570277FAD61869FC9F8892D347C0FF5C69F7BA74F62C71088825359ED0840DE29434148BAFA4BAB956E3E4FB28AC9718F134091DFAA1562E2D95233</checksum>
+</PIDBlock>

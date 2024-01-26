@@ -1,0 +1,98 @@
+{
+    "_id": "4b110e61-e1ce-47b0-8f52-df76f3c70501",
+    "colName": "Equitas EncDec",
+    "created": "2024-01-26T13:54:35.063Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "17472bc5-5ae3-4344-94c5-8b9133386889",
+            "colId": "4b110e61-e1ce-47b0-8f52-df76f3c70501",
+            "containerId": "",
+            "name": "EQEncryption Copy",
+            "url": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQEncryption?code=Qp2x6fEKXes7lqkaGR5TCHr_NtN_pT-JB2ONNA23F1ypAzFuvg_-DQ==",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-01-26T13:54:35.080Z",
+            "modified": "2024-01-26T13:57:16.111Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "code",
+                    "value": "Qp2x6fEKXes7lqkaGR5TCHr_NtN_pT-JB2ONNA23F1ypAzFuvg_-DQ==",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "V_requestData",
+                        "value": "{     \"FetchDigiCustLead\": {         \"msgHdr\": {             \"channelID\": \"12\",             \"transactionType\": \"detail\",             \"transactionSubType\": \"detail\",             \"conversationID\": \"FetchCuLead2653302315\",             \"externalReferenceId\": \"FetchCuLead2653302315123\",             \"isAsync\": true,             \"authInfo\": {                 \"branchID\": \"\",                 \"userID\": \"\",                 \"token\": \"Ed9VS9Rx88\"             }         },         \"msgBdy\": {             \"AccountapplicantID\": \"00004868\"         }     } } "
+                    },
+                    {
+                        "name": "V_AESSymmetricKey",
+                        "value": "Xp8R7D8xn/5lLchiNleWig=="
+                    },
+                    {
+                        "name": "V_ChecksumKey",
+                        "value": "BT/Qfw9oT/ITI5dzPyoT6w=="
+                    },
+                    {
+                        "name": "V_bankcode",
+                        "value": "FI0060"
+                    },
+                    {
+                        "name": "V_requestedID",
+                        "value": "MAR152023001"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "1ace8ce6-ef5c-46b1-8e8a-426db727dc05",
+            "colId": "4b110e61-e1ce-47b0-8f52-df76f3c70501",
+            "containerId": "",
+            "name": "EQDecryption Copy",
+            "url": "https://equitascrmenqdecfunc.azurewebsites.net/api/EQDecryption?code=zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg==",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-01-26T13:54:35.082Z",
+            "modified": "2024-01-26T13:57:35.496Z",
+            "headers": [
+                {
+                    "name": "x-functions-key",
+                    "value": "zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg=="
+                }
+            ],
+            "params": [
+                {
+                    "name": "code",
+                    "value": "zGozdu3pRIt9cQDHmmxtDX4Ch8CXwv6wsgi3EpS9G5iAAzFu7mQaOg==",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "V_requestData",
+                        "value": "HzAFQyODlzEaG7soYia8XdFz7y8CG8o0CVAMJha7brI06iRnrX/qeh/uZOrjjJRdjnGdRRZgJtu1zaI0Z8Np8Apf+ve21FZF3kEpTV6Ypw5PKITuJfKscmSogZjpOcQtOLnZT3XSTaaHLRhcIHUGe84myXqsOJIYWC05/Qdd38xrmA4mbMc0xsTYlmI2VtEMoefP3ZQt9j34c+WtdO8ILSg+ePrwSSNysLEwvRp7qIR3ATXRQwTyoi2WXAA184scG3hsFaUTmM5O/Gu5yHbMe7Xwblm3aBxLRMO4LNBnASATY+GWzE+SS/x6ehMDNk/Mmjk1/t46FsRNk/lb+CtBBjGR1DNI89K+skx1yIL9DtJWvuxtFcHKGcrIBP2c8InPfZy56DjW7J0Y477h5aSBFQ0APtId4x7W102EkXCr3QkXxOX4IlIGTyT+y8886AASNYWwK0RTx9w154/cZOrIMjjy5L2+h33BuBNVT42ejuAiv+DoCSDMUvoohnc7n4HqDbEpAejsDrHfDYCRXTxdPv4PkEfFd51uCj8iNcbtnQVW5hvTpocWzuHYP5f3Zx3DK4MU7GB/Ay6c66kBLYHhaY745BEol3DxQKg8AiR9mxMJv8SelzgOZEOkPihSLwJ1+0kTq/xP9RAr0ertlqQA1jnoGRA8rtQrCk2hj7aBYQ+qfUNSMMTIHQbWi0bW6zBs7BZ629P15BAP53CKrct1RG+TJQptNI/b/r7Tiz2hZBrO4dJ2nrMIT588kbXtWzzflV84b9qpgRXc5J5kUuk5Qru46ZQSsmkRMC/D5cTGGI57u65vvGU+R4ze73UdZj2G25X2F+OxU7mSEwR/+KE5S5BIONAwFlKoXj28pmQS3XKQS1CikiAUU/oZqpRT6uMiLPHtvW7xaJJOIdJjy2ihNoijm8cfBjtF5oIOVubqJ+zjMGsO6je1Sq3yMmZfmVATh9mW4VWaAVlf7upPTjcvqetQ4nBglVDM4X9FLVk0zjrQnqEna6uBaQfXXbsShisOKVStyZ4RKVlCSCJfHuEXgw=="
+                    },
+                    {
+                        "name": "V_AESSymmetricKey",
+                        "value": "Xp8R7D8xn/5lLchiNleWig=="
+                    },
+                    {
+                        "name": "V_bankcode",
+                        "value": "FI0060"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
